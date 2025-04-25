@@ -173,9 +173,9 @@ app.post('/api/chat', async (req, res) => {
         initialContext += `\\n\\nCo-Fundadores: ${contextJson.founders.join(', ')}.`;
     }
     if (contextJson.sites && Object.keys(contextJson.sites).length > 0) {
-        initialContext += `\\n\\nSites Oficiais (Links permitidos):\\n`;
+        initialContext += `\\n\\nSites Oficiais (Links permitidos):\n`;
         for (const siteName in contextJson.sites) {
-            initialContext += `- ${siteName}: ${contextJson.sites[siteName]}\\n`;
+            initialContext += `- ${siteName}: ${contextJson.sites[siteName]}\n`;
         }
     }
     if (contextJson.teams) {
