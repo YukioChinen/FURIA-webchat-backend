@@ -1,6 +1,11 @@
 # FURIA-webchat-backend
 
-Este é o back-end de um desafio técnico para uma vaga de estágio. O projeto consiste em uma API que utiliza a tecnologia de inteligência artificial da Google para criar um chatbot especializado na organização de e-sports FURIA.
+Este é o back-end de um desafio técnico. O projeto consiste em uma API que utiliza a tecnologia de inteligência artificial da Google para criar um chatbot especializado na organização de e-sports FURIA.
+
+**Links Úteis:**
+- **Repositório do Frontend:** [FURIA Webchat Frontend](https://github.com/YukioChinen/FURIA-webchat-frontend)
+- **Repositório do Backend:** [FURIA Webchat Backend](https://github.com/YukioChinen/FURIA-webchat-backend)
+- **Site Online (Vercel):** [FURIA Chatbot](https://furia-webchat-frontend.vercel.app/)
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -50,7 +55,6 @@ FURIA-webchat-backend/
 3. Crie um arquivo `.env` na raiz do projeto e adicione a chave da API:
    ```
    GOOGLE_API_KEY=SuaChaveDeAPI
-   PORT=5001
    ```
 
 4. Inicie o servidor:
@@ -90,7 +94,7 @@ FURIA-webchat-backend/
 
 ## 🖤 Sobre a FURIA
 
-A FURIA é uma das maiores organizações de e-sports do Brasil, com equipes em diversas modalidades como CS2 e Valorant. Este projeto foi desenvolvido com o objetivo de criar uma experiência interativa para os fãs da organização.
+A FURIA é uma das maiores organizações de e-sports do Brasil, com equipes em diversas modalidades. Este projeto foi desenvolvido com o objetivo de criar uma experiência interativa para os fãs da organização.
 
 ---
 
