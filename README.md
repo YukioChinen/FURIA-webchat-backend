@@ -90,6 +90,7 @@ FURIA-webchat-backend/
 
 - O chatbot foi configurado para responder apenas sobre a FURIA e temas relacionados. Perguntas fora desse escopo serão recusadas.
 - Certifique-se de que a chave da API está configurada corretamente no arquivo `.env`.
+- As informações dos atuais jogadores e coach, e resultados anteriores são retirados dinamicamente do site da Liquipedia.
 
 
 ## 🖤 Sobre a FURIA
